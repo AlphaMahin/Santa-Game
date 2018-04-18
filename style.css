@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+    height: auto;
+}
+
+p {
+    padding: 10px;
+}
+
+h1 {
+    padding: 10px;
+    color: #000000;
+}
+
+h2 {
+    padding: 10px;
+    color: #000000;
+}
+
+#header {
+    float: left;
+    height: 135px;
+    width: 80%;
+    background-color: #dddddd;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#headerContainer {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+/* Background of the webpage outside of the content area */
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: #dddddd;
+}
+
+#body {
+    width: 80%;
+    min-height: 100% padding-bottom:10px;
+    margin: 0 auto;
+    background-color: #dddddd;
+    font-family: Arial, Helvetica, Futura, sans-serif;
+    font-size: 11pt;
+}
+
+.mainClass {
+    overflow: hidden;
+    width: 80%;
+    padding-top 10px;
+    padding-bottom: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 125px auto 0px auto;
+}
+
+/* Below is the left container for a 3 column layout */
+
+#leftContainer {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: #dddddd;
+}
+
+/* Below is the left column of a 3 column layout */
+
+#leftColumn {
+    float: left;
+    width: 50%;
+    padding: 110px 0 100px 0;
+    background: #dddddd;
+}
+
+/* Below is the right container that will hold the middle and the right column of the 3 column layout */
+
+#rightContainer {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: #dddddd;
+}
+
+#middleColumn {
+    float: left;
+    width: 50%;
+    padding: 110px 0 100px 0;
+    background: #dddddd;
+}
+
+#rightColumn {
+    float: right;
+    width: 50%;
+    padding: 110px 0 100px 0;
+    background: #dddddd;
+}
+
+.footer {
+    clear: both;
+    position: relative;
+    padding: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 80%;
+    background-color: #dddddd;
+}
+
+.footerAlignRight {
+    text-align: right;
+    padding-right: 30px
+}
+
+image {
+    width: 480px;
+    height: auto;
+    padding: 1px;
+    border: 1px solid #021a40;
+    background-color: #ECEBE8;
+}
+
+/* The Canvas*/
+
+#myCanvas {
+    background-image: url('pics/background.png');
+    border: 1px solid black;
+    display: block;
+    width: 800px;
+    height: 600px;
+    margin: 10px auto;
+}
+
+#santaStanding {
+    position: fixed;
+    display: none;
+}
+#santa1{
+    display: none;
+}
+#sleigh{
+    display: none;
+}
+

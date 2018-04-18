@@ -1,0 +1,81 @@
+<!--I have uploaded my site to http://www.monkeyscall.com-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Week 4 Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="move/move.js"></script>
+
+</head>
+
+
+<div id="body">
+    <div id="headerContainer">
+        <div id="header">
+            <h1 align="center">My Recipe Book</h1>
+            <hr>
+            <nav>
+                <ul>
+                    <h4>
+                        <a href="index.html">Home</a> |
+                        <a href="page02.html">Grandma's Pumpkin Pie</a> |
+                        <a href="unit3a.html">My Cherry Pie</a> |
+                        <a href="game.html">Week 4 Game</a> |
+                        <a href="unit3b.html">About</a>
+                    </h4>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <center>
+        <main>
+            <div class="mainClass">
+                <canvas id="myCanvas" width="800" height="600">
+    				I AM SORRY BUT YOUR BROWSER DOES NOT SUPPORT CANVAS GRAPHICS
+
+                </canvas>
+
+                <div id="timer">
+                    <input type="button" display: hidden onclick="StartTimer()" />
+                </div>
+                <div id="content">
+                    <p>The objective of this game is to click on the Santa Clause and watch it move in a random direction 10 pixels.<br />You are to keep cliking until either the timer runs out or you get Santa back to his sleigh.</p>
+
+                    <table style="width:50%">
+                        <tr>
+                            <thead>The current problems are:</thead>
+                        </tr>
+                        <tr>
+                            <td>I cannot get the timer to count down.</td>
+                        </tr>
+                        <tr>
+                            <td>The clock in the top left corner is supposed to be attached to the "TIME REMAINING".</td>
+                        </tr>
+                        <tr>
+                            <td>There is no collision set for Santa and the sleigh once he reaches is goal.</td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- This is a hidden image -->
+
+                <img onclick="moveSanta()" class="hiddenSanta" id="santaStanding" src="pics/SantaStanding.png" alt="Santa Standing Still on Snowman's Head" />
+                <img class="hiddenSanta" id="sleigh" src="pics/sleigh.png" alt="Santa Standing Still on Snowman's Head" />
+                
+                <img class="hiddenSanta" id="santa1" src="pics/santaSprite.png" alt="Santa Standing Still on Snowman's Head" />
+
+            </div>
+        </main>
+    </center>
+    <footer class="footer">
+        <div>
+            <hr>
+            <p class="footerAlignRight">
+                Tanbir Karim Mahin<br> 2018
+            </p>
+        </div>
+    </footer>
+    <html>
